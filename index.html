@@ -12,12 +12,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
+     
         <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
         <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/main.css">
@@ -57,14 +52,54 @@
         </div>
       </div>
     </nav>
+      <div id="map">
+        <h2>Map</h2>
+        <div id="map-container"></div>
+      </div>
+    <!-- map section -->
+     <div id="newCarousel" class="carousel slide" data-ride="carousel">
+    <!-- carousel section with pictures-->
+      <div id="about" role="tabpanel">
+      <!-- Create the HTML structure to trigger the Bootstrap tabs feature:
+            http://getbootstrap.com/javascript/#tabs
+
+            You will need to add HTML structure to show each of the divs below
+            as a unique tab. -->
+        <div>
+          <!-- Nav tab -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#description" aria-controls="about" role="tab" data-toggle="tab">Description</a></li>
+            <li role="presentation"> <a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
+            <li role="presentaiton"> <a href="#stats" aria-controls="stats" role="tab" data-toggle="tab">List of Restaurants</a></li>
+          </ul>
+          <!-- tab panes -->
+          <div class="tab-content">
+            <!-- about -->
+            <div role="tabpanel" class="tab-pane active" id="description">
+              
+            </div>
+            <!-- end of about -->
+           <!-- History -->
+            <div role="tabpanel" class="tab-pane active" id="history">
+
+            </div>
+            <!-- end of history -->
+            <!-- stats -->
+            <div role="tabpanel" class="tab-pane" id="list of restaurants">
+                 <dl>
+
+                 </dl>
+            </div>
+          </div>
+        </div>
     
     
     
     
     
-    
-    
-    
+      <footer>
+        <p>Made by Derek Oh in 2017.</p>
+      </footer>
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/vendor/jquery-1.11.2.min.js"><\/script>')</script>
