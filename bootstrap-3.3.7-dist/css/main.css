@@ -50,6 +50,9 @@ footer {
 @media (min-width: 1200px) {
   
 }
-#collumn_2 {
-  display: none;
+@media screen and (orientation:portrait) {
+   /* Portrait styles here */
+}
+@media screen and (orientation:landscape) {
+   /* Landscape styles here */
 }
