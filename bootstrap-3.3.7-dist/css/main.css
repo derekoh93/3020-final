@@ -38,19 +38,7 @@ footer {
   padding-left: 150px
 }
 @media (max-width: 767px) {
-  header{
-      width: 100%;
-  }
-  body{
-     	width: 100%;
-	    height: 100%;
-	    padding: 0px;
-	    margin: 0px;
-  }
- .navbar {
-			float:none;
-			width: auto;
-		}
+
   
 }
 
@@ -64,9 +52,10 @@ footer {
   
 }
 @media all and (orientation:portrait) {
-     header{
-      width: fill;
-  }
+    body {
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	}
 
 }
 @media all and (orientation:landscape) {
