@@ -50,9 +50,9 @@ footer {
 @media (min-width: 1200px) {
   
 }
-@media screen and (orientation:portrait) {
+@media all and (orientation:portrait) {
    /* Portrait styles here */
 }
-@media screen and (orientation:landscape) {
+@media all and (orientation:landscape) {
    /* Landscape styles here */
 }
