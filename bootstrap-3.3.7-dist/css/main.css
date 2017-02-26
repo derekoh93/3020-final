@@ -51,7 +51,7 @@ footer {
   
 }
 @media only screen and (orientation:portrait) {
-  html header{
+  html{
      width:100%;
   }
 }
