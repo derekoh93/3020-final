@@ -23,6 +23,7 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <header>
         <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -37,21 +38,21 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">Home</a></li>
+            <li class="active"><a href="#map">Map</a></li>
+             <li><a href="#MillCreek">Pictures</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#description">Description</a></li>
                 <li><a href="#history">History</a></li>
-                <li><a href="#stats">List of Restaurants</a></li>
+                <li><a href="#restaurants">List of Restaurants</a></li>
               </ul>
             </li>
-            <li><a href="#map">Map</a></li>
-            <li><a href="#links">Links</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    </header>
       <div id="map">
         <h2>Map</h2>
         <div id="map-container"></div>
@@ -59,7 +60,7 @@
     <!-- map section -->
      <div class="jumbotron">
      <div class="container">
-        <h2 id="home">Mill Creek Information</h2>
+        <h2 id="MillCreek">Mill Creek Information</h2>
      <div id="newCarousel" class="carousel slide" data-ride="carousel">
        <ol class="carousel-indicators">
             <li data-target="#newCarousel" data-slide-to="0" class="active"></li>
@@ -136,11 +137,7 @@
     </div>
     <!-- carousel section with pictures-->
       <div id="about" role="tabpanel">
-      <!-- Create the HTML structure to trigger the Bootstrap tabs feature:
-            http://getbootstrap.com/javascript/#tabs
 
-            You will need to add HTML structure to show each of the divs below
-            as a unique tab. -->
         <div>
           <!-- Nav tab -->
           <ul class="nav nav-tabs" role="tablist">
@@ -152,7 +149,7 @@
           <div class="tab-content">
             <!-- about -->
             <div role="tabpanel" class="tab-pane active" id="description">
-              
+            
             </div>
             <!-- end of about -->
            <!-- History -->
@@ -161,10 +158,10 @@
             </div>
             <!-- end of history -->
             <!-- list -->
-            <div role="tabpanel" class="tab-pane" id="list of restaurants">
-                 <dl>
-
-                 </dl>
+            <div role="tabpanel" class="tab-pane active" id="restaurants">
+              
+         
+                
             </div>
           </div>
         </div>
@@ -174,8 +171,42 @@
     
     
       <footer>
-        <p>Made by Derek Oh in 2017.</p>
-      </footer>
+        <div class="container">
+			    <div class="row">
+				    <div class="col-sm-4">
+					    <div class="widget">
+					    	<h4 class="title">Description</h4>
+						      <div class="content">
+							      <p>
+							      This page is for Wats 3020 at Seattle Universities Web Development program.
+						        </p>
+						      </div>
+					       </div>
+				      </div>
+            <div class="col-sm-4">
+					<div class="widget">
+						<h4 class="title">Links</h4>
+						<div class="content">
+                <p>
+                links will go here      
+                </p>
+							</div>
+						</div>
+					</div>
+				
+            <div class="col-sm-4">
+					    <div class="widget">
+						    <h4 class="title">Share</h4>
+						      <div class="content">
+                      <p>
+                        Social media sharing will go here
+                     
+                      </p>
+                    </div>
+                </div>
+              </div>
+            
+           </footer>
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/vendor/jquery-1.11.2.min.js"><\/script>')</script>
