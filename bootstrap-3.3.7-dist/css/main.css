@@ -37,27 +37,24 @@ img {
 footer {
   padding-left: 150px
 }
-@media (max-width: 767px) {
-
+@media only screen and (max-width: 767px) {
   
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   
 }
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   
 }
-@media all and (orientation:portrait) {
-    body {
-		-webkit-text-size-adjust: 100%;
-		-ms-text-size-adjust: 100%;
-	}
-
+@media only screen and (orientation:portrait) {
+  header{
+     width:100%;
+  }
 }
-@media all and (orientation:landscape) {
+@media only screen and (orientation:landscape) {
    /* Landscape styles here */
 }
