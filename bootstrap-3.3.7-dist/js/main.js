@@ -41,7 +41,7 @@ $(document).ready(function(){
 			
 			
   //This is the layer group of markers that you can find on the map   
-  var visit = L.layerGroup([paradise,longmire,naradaFalls,azul,zen,pelican,palmera,tablas,sawmill,shawn,brunswick,towncenter]);
+  var visit = L.layerGroup([elevated,airportPark,marthaPark,azul,zen,pelican,palmera,tablas,sawmill,shawn,brunswick,towncenter]);
   
   var mapOverlay = {
       "visit": visit
