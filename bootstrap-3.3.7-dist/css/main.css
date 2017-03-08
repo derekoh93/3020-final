@@ -5,9 +5,10 @@ html body {
 	margin: 0px;
 }
 
-#map-container { height: 100%;
- width: 100%;
-
+#map-container { height: 750px;
+ width: 767px;
+margin-right: auto;
+	margin-left: auto;
 }
 
 #map h2{
@@ -48,6 +49,7 @@ footer {
 	body{
 		font-size: 10px;
 	}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
