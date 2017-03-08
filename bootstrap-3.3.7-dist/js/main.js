@@ -1,4 +1,5 @@
 $(document).ready(function(){
+		
 //Smooth scroll from w3schools
 //This function adds a smooth scroll action when you click buttons at the nav bar
     var satMap = L.tileLayer('https://api.mapbox.com/styles/v1/derekoh93/cj01h2sdw008k2rplxbe3t80g/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGVyZWtvaDkzIiwiYSI6ImNpeXJteWVjdjAwMjYzMnMxM2NsYnZxb2UifQ.WkKLRw3Mk7pEXoSNfW7B3w', {
@@ -52,7 +53,7 @@ $(document).ready(function(){
     zoom: 13,
     layers: [satMap,visit]
   });
-    
+
   $("a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -70,5 +71,6 @@ $(document).ready(function(){
       });
     } // End if
   });
+	
     L.control.layers(baseMap, mapOverlay).addTo(myMap);
 })
