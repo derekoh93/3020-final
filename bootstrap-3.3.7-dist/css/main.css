@@ -50,6 +50,12 @@ footer {
 	body{
 		font-size: 10px;
 	}
+	#map-container{
+		width: 500px;
+		height: 600px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 
 }
 
@@ -57,15 +63,33 @@ footer {
 	body{
 		font-size: 12px;
 	}
+		#map-container{
+		width: 800px;
+		height: 900px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	body{
 		font-size: 14px;
 	}
+		#map-container{
+		width: 1000px;
+		height: 1100px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 @media only screen and (min-width: 1200px) {
 	body{
 		Font-size: 16px;
+	}
+		#map-container{
+		width: 1200px;
+		height: 1250px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 @media only screen and (orientation:portrait) {
