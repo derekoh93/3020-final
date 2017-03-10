@@ -1,5 +1,5 @@
 $(document).ready(function(){
-		
+	// form validation for tour sign up	
 $("#order-form").validate( {
     
     submitHandler: function(form) {
